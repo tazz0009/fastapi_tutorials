@@ -54,6 +54,8 @@ git commit -m "let learn fastAPI"
 
 ## chap04 API Docs
 
+- http://127.0.0.1:8000/docs
+
 ## chap05 Query Parameters
 
 ## chap06 Request Body
