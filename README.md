@@ -14,8 +14,10 @@ fastapi-env\Scripts\activate.bat
 - 아나콘다 가상환경설치
 
 ```
-python3 -m venv fastapi-env
-fastapi-env\Scripts\activate.bat
+conda create -n fastapi-env
+conda info --envs
+conda activate fastapi-env
+conda deactivate
 ```
 
 - fastAPI, uvicorn 설치
@@ -63,6 +65,20 @@ git commit -m "let learn fastAPI"
 ## chap07 Debugging
 
 ## chap08 Pydantic Schemas
+
+- requirements.txt 파일 생성
+
+```
+pip3 install -r requirements.txt
+```
+
+- 서버 start
+
+```
+uvicorn blog.main:app --reload
+```
+
+- http://127.0.0.1:8000/docs
 
 ## chap09 Database Connection
 
